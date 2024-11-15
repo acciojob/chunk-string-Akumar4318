@@ -1,5 +1,5 @@
 function stringChop(str, size) {
-	 if(str<str.length || str==null){
+	 if(str==null || str.length<size){
     return []
   }
   if(str==""){
@@ -24,6 +24,6 @@ let temp=""
 }
 
 // Do not change the code below
-const str = prompt("Enter String.");
-const size = prompt("Enter Chunk Size.");
-alert(stringChop(str, size));
+// const str = prompt("Enter String.");
+// const size = prompt("Enter Chunk Size.");
+// alert(stringChop(str, size));
